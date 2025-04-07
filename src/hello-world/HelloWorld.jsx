@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function HelloWorld(){
+const HelloWorld = () => {
     let [name, setName] = useState('');
     let[message, setMessage] = useState('');
 
@@ -32,4 +32,5 @@ export default function HelloWorld(){
     )
 }
 
+export default HelloWorld;
 
